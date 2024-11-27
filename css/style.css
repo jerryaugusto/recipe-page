@@ -1,3 +1,33 @@
+body {
+  background-image: url(../assets/background-image.jpg);
+  background-size: cover;
+  font-family: "Alice", serif;
+  padding: auto;
+}
+
+#page {
+  box-sizing: border-box;
+  background-color: #F0E8C2;
+  width: 800px;
+  padding: 24px;
+  border-radius: 24px;
+  margin: 48px auto 28px;
+}
+
 img {
   border-radius: 16px;
+}
+
+h1, h2 {
+  color: #291B1A;
+}
+
+p {
+  color: #573A37;
+}
+
+footer {
+  color: #F0E8C2;
+  margin-bottom: 48px;
+  line-height: 150%;
 }
